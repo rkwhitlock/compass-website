@@ -5,6 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #0070f3;
+}
+
+.blue {
+  background-image: linear-gradient(red, yellow);
 }
 
 .title a {

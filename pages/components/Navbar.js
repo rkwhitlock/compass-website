@@ -11,7 +11,7 @@ const applicationLink =
 
 export default function Navbar() {
   return (
-    <div className="bg-gradient-to-r  from-indigo-300 via-purple-700 to-indigo-900">
+    <div>
       <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3 shadow-sm">
         <div className="container flex flex-col md:flex-row md:justify-between ">
           <div className="flex items-center justify-center md:justify-start font-snas">
@@ -20,8 +20,13 @@ export default function Navbar() {
               className="basis-1/3 flex items-center"
             ></div>
           </div>
-          <div className="flex items-center justify-center md:justify-start ">
-            <Image src="/navbarLogo.png" width="150" height="15" />
+          <div className="flex items-center md:justify-start ">
+            <Image
+              src="/navbarLogo.png"
+              width="150"
+              height="15"
+              alt="compass"
+            />
           </div>
           <div className="flex items-center justify-between md:justify-end ">
             <button
